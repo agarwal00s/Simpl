@@ -8,7 +8,7 @@ function App() {
     <div style={{ backgroundColor: "#E5E5E5", height: "100vh" }}>
       <div className="headerTop" />
       <div className="welcomeDiv">
-        <div className="welcomeSimpl">Welcome to <img src={simpl2} style={{margin: '0 5px 0 5px'}}></img>Simpl</div>
+        <div className="welcomeSimpl">Welcome to <img src={simpl2} style={{margin: '0 5px 0 5px'}} alt="I"></img>Simpl</div>
         <div className="welcomeAccounts">2 active accounts</div>
       </div>
       <div className="cardsDiv">

@@ -8,7 +8,7 @@ function Card() {
     <div className="card">
       <div style={{ display: "flex", alignItems: "center" }}>
         <div className="cardSimpl">
-          <img src={simplIcon} style={{marginRight: '5px'}}></img> Simpl
+          <img src={simplIcon} style={{marginRight: '5px'}} alt="I"></img> Simpl
         </div>
         <div className="cardBill">BILL OVERDUE</div>
       </div>
@@ -22,7 +22,7 @@ function Card() {
           <div className="dateDisplay">15 Aug</div>
         </div>
       </div>
-      <div className="paymentButton"><img src={lockfill} style={{marginRight: '5px'}}></img>PAY Rs 1500</div>
+      <div className="paymentButton"><img src={lockfill} style={{marginRight: '5px'}} alt="I"></img>PAY Rs 1500</div>
     </div>
   );
 }
