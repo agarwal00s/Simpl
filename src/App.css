@@ -1,0 +1,109 @@
+.headerTop{
+  height: 27px;
+  background-color: #02BAB0;
+  width: 100%;
+}
+
+.welcomeDiv{
+  height: 207px;
+  background-color: #00D1C1;
+  padding-left: 16px;
+  padding-top: 20px;
+}
+
+.welcomeSimpl{
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+}
+
+.welcomeAccounts{
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: #FFFFFF;
+  opacity: 0.8;
+  margin-top: 16px;
+}
+
+.cardsDiv{
+  /* background-color: gray; */
+  position: relative;
+  top: -120px;
+  padding: 0 16px 0 16px;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.card{
+  background-color: white;
+  height: 100%;
+  width: 292px;
+  border-radius: 10px;
+  padding: 25px;
+  overflow: auto;
+  white-space: nowrap;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.cardSimpl{
+  color: #00A699;
+  font-weight: 700;
+  float: left;
+  display: flex;
+  align-items: center;
+}
+.cardBill{
+  background-color: #FBE2E1;
+  color: #E33F37;
+  font-weight: 400;
+  font-size: 8px;
+  float: right;
+  margin-left: 155px;
+  padding: 4px;
+}
+
+.spent{
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+  color: #888888;
+}
+
+.amount{
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.dateDisplay{
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: right;
+}
+
+.paymentButton{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(90deg, #00D1C1 0%, #00D1DC 100%);
+  padding: 3%;
+  color: white;
+  border-radius: 4px;
+  margin-top: 50px
+}
